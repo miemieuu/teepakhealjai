@@ -1,0 +1,55 @@
+.latest-projects {
+    padding: 20px;
+  }
+  
+  .latest-projects h2 {
+    font-size: 24px;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+  }
+  
+  .latest-projects h2::after {
+    content: " 🏡";
+  }
+  
+  .project-list {
+    display: flex;
+    gap: 16px;
+    overflow-x: auto;
+    padding: 10px 0;
+  }
+  
+  .project-card {
+    background: #fff;
+    border-radius: 12px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    min-width: 260px;
+    max-width: 260px;
+    transition: transform 0.3s ease-in-out;
+  }
+  
+  .project-card:hover {
+    transform: translateY(-5px);
+  }
+  
+  .project-card img {
+    width: 100%;
+    height: 160px;
+    object-fit: cover;
+  }
+  
+  .project-card h3 {
+    font-size: 18px;
+    font-weight: bold;
+    margin: 10px;
+  }
+  
+  .project-card p {
+    font-size: 16px;
+    color: #ff6600;
+    font-weight: bold;
+    margin: 0 10px 10px;
+  }
+  
